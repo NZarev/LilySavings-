@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class LilySavings {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int age = scanner.nextInt();
+        double washingMachinePrice = scanner.nextDouble();
+        int toyPrice = scanner.nextInt();
+        
+        double totalMoney = 0.0;
+        double moneyFromToys = 0.0;
+        
+        for (int i = 1; i <= age; i++) {
+            if (i % 2 == 0) { // even birthdays
+                double moneyFromBirthday = i / 2 * 10;
+                totalMoney += moneyFromBirthday - 1; // brother takes 1.00
+            } else { // odd birthdays
+                moneyFromToys += toyPrice;
+            }
+        }
+
+        totalMoney += moneyFromToys;
+
+        if (totalMoney >= washingMachinePrice) {
+            System.out.printf("Yes! %.2f%n", totalMoney - washingMachinePrice);
+        } else {
+            System.out.printf("No! %.2f%n", washingMachinePrice - totalMoney);
+        }
+
+        scanner.close();
+    }
+}
