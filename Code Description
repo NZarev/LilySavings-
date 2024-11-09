@@ -19,3 +19,5 @@
       Add the remaining money from the birthday to totalMoney.
     For odd-numbered birthdays (Lily receives toys):
       Add the value of one toy to moneyFromToys.
+4. Sum Total Money
+  After the loop, add moneyFromToys to totalMoney to get the final savings amount.
