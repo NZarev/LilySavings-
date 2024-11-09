@@ -1,3 +1,8 @@
 1. Declare Variables and Initialize Scanner
   Start by initializing a Scanner to take input.
   Declare variables:
+    age: an integer to store Lily's current age.
+    washingMachinePrice: a double to store the price of the washing machine.
+    toyPrice: an integer to store the price of a toy.
+    totalMoney: a double to accumulate the total money Lily saves.
+    moneyFromToys: a double to store the money accumulated from receiving toys on her odd-numbered birthdays.
