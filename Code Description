@@ -8,6 +8,6 @@
     moneyFromToys: a double to store the money accumulated from receiving toys on her odd-numbered birthdays.
 2. Read Input Values
   Read the input values for:
-age
-washingMachinePrice
-toyPrice
+    age
+    washingMachinePrice
+    toyPrice
