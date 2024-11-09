@@ -14,8 +14,8 @@
 3. Calculate Money Accumulated Over the Years
   Loop through each year from 1 to age:
     For even-numbered birthdays (Lily receives money from her family):
-Calculate the amount of money Lily receives for her birthday, increasing by 10 units each even year.
-Subtract 1 from this amount to account for her brother taking $1 on each even birthday.
-Add the remaining money from the birthday to totalMoney.
+      Calculate the amount of money Lily receives for her birthday, increasing by 10 units each even year.
+      Subtract 1 from this amount to account for her brother taking $1 on each even birthday.
+      Add the remaining money from the birthday to totalMoney.
 For odd-numbered birthdays (Lily receives toys):
 Add the value of one toy to moneyFromToys.
