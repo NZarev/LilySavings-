@@ -21,3 +21,10 @@
       Add the value of one toy to moneyFromToys.
 4. Sum Total Money
   After the loop, add moneyFromToys to totalMoney to get the final savings amount.
+5. Compare Savings to Washing Machine Price
+  If totalMoney is greater than or equal to washingMachinePrice:
+    Print "Yes!" followed by the amount left after purchasing the washing machine.
+  Otherwise:
+    Print "No!" followed by the shortfall needed to afford the washing machine.
+6. Close the Scanner
+  Close the scanner to avoid resource leaks.
